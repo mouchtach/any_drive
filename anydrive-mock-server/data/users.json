@@ -1,0 +1,66 @@
+[
+  {
+    "id": "u-1",
+    "phone": "",
+    "permissions": [],
+    "email": "customer@demo.com",
+    "firstName": "Sara",
+    "lastName": "Benali",
+    "role": "CUSTOMER",
+    "password": "Demo1234"
+  },
+  {
+    "id": "u-2",
+    "phone": "",
+    "permissions": [
+      "fleet:manage",
+      "bookings:manage",
+      "employees:manage"
+    ],
+    "email": "agency@demo.com",
+    "firstName": "Youssef",
+    "lastName": "Atlas",
+    "role": "AGENCY_ADMIN",
+    "companyName": "Atlas Cars",
+    "agencyStatus": "APPROVED",
+    "password": "Demo1234"
+  },
+  {
+    "id": "u-3",
+    "phone": "",
+    "permissions": [
+      "bookings:manage"
+    ],
+    "email": "employee@demo.com",
+    "firstName": "Salma",
+    "lastName": "Idrissi",
+    "role": "AGENCY_EMPLOYEE",
+    "companyName": "Atlas Cars",
+    "agencyStatus": "APPROVED",
+    "password": "Demo1234"
+  },
+  {
+    "id": "u-4",
+    "phone": "",
+    "permissions": [
+      "*"
+    ],
+    "email": "admin@demo.com",
+    "firstName": "Admin",
+    "lastName": "AnyDrive",
+    "role": "SUPER_ADMIN",
+    "password": "Demo1234"
+  },
+  {
+    "id": "u-5",
+    "phone": "",
+    "permissions": [],
+    "email": "pending@demo.com",
+    "firstName": "Hamza",
+    "lastName": "Rif",
+    "role": "AGENCY_ADMIN",
+    "companyName": "Rif Rent",
+    "agencyStatus": "PENDING",
+    "password": "Demo1234"
+  }
+]

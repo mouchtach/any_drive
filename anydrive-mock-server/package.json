@@ -1,0 +1,9 @@
+{
+  "name": "anydrive-mock-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Throw-away fake backend for the AnyDrive frontend (auth only). Not part of the real project.",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
