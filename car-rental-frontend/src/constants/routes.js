@@ -88,7 +88,8 @@ const AREA_PREFIX = [
  */
 export function canAccessPath(role, path = '/') {
   for (const [prefix, owner] of AREA_PREFIX) {
-    if (path === prefix || path.startsWith(`${prefix}/`)) return role === owner
+    if (path === prefix || path.startsWith(`${prefix}/`))
+      return role === owner
   }
   return true
 }
